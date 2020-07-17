@@ -11,6 +11,9 @@ import SwiftUI
 struct ContentView: View {
     @State var show = false
 
+    // Storing a value of type CGSize (width and height) with default value of zero
+    @State var viewState = CGSize.zero
+
     var body: some View {
         ZStack {
             TitleView()
@@ -22,6 +25,7 @@ struct ContentView: View {
                 .cornerRadius(20)
                 .shadow(radius: 20)
                 .offset(x: 0, y: show ? -400 : -40)
+                .offset(x: viewState.width, y: viewState.height)
                 .scaleEffect(0.9)
                 .rotationEffect(Angle(degrees: show ? 0 : 10))
                 .rotation3DEffect(Angle(degrees: 10), axis: (x: 10, y: 0, z: 0))
@@ -33,6 +37,7 @@ struct ContentView: View {
                 .cornerRadius(20)
                 .shadow(radius: 20)
                 .offset(x: 0, y: show ? -200 : -20)
+                .offset(x: viewState.width, y: viewState.height)
                 .scaleEffect(0.95)
                 .rotationEffect(Angle(degrees: show ? 0 : 5))
                 .rotation3DEffect(Angle(degrees: 5), axis: (x: 10, y: 0, z: 0))
@@ -40,10 +45,29 @@ struct ContentView: View {
                 .animation(.easeInOut(duration: 0.3))
 
             CardView()
+                // Use the offset modifier to move the card the same amount as the drag
+                .offset(x: viewState.width, y: viewState.height)
                 .blendMode(.hardLight)
+                // A modifier that adds a spring animation that contains momentum. The lower the response value, the quicker the animation. dampingFraction regards the amount of bounce.
+                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0))
                 .onTapGesture {
                     self.show.toggle()
-            }
+                }
+                .gesture(
+                    // onChanged in one event in the DragGesture
+                    // onChanged returns the DragGesture value.
+                    DragGesture().onChanged { value in
+                        // Store x and y positions
+                        // translation is of type CGSize
+                        self.viewState = value.translation
+                        self.show = true
+                    }
+                    // Resets to original position
+                    .onEnded { value in
+                        self.viewState = .zero
+                        self.show = false
+                    }
+            )
             
             BottomCardView()
                 .blur(radius: show ? 20 : 0)
