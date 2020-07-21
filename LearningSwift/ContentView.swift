@@ -22,14 +22,13 @@ struct ContentView: View {
                 .blur(radius: show ? 20 : 0)
                 .opacity(showCard ? 0.4 : 1)
                 .offset(y: showCard ? -200 : 0)
-                // You can use a .default animation, or customize it by pulling in an Animation type first)
                 .animation(
                     Animation
                         .default
                         .delay(0.1)
                         // Twice as fast as before
                         // .speed(2)
-            )
+                )
 
             BackCardView()
                 .frame(width: showCard ? 300 : 340, height: 220)
@@ -64,25 +63,18 @@ struct ContentView: View {
             CardView()
                 .frame(width: showCard ? 375 : 340.0, height: 220)
                 .background(Color.black)
-                // cornerRadius clips corners. .clipShape lets you animate
-                // .cornerRadius(20)
                 .clipShape(RoundedRectangle(cornerRadius: showCard ? 30 : 20, style: .continuous))
                 .shadow(radius: 20)
                 // Use the offset modifier to move the card the same amount as the drag
                 .offset(x: viewState.width, y: viewState.height)
                 .offset(y: showCard ? -100 : 0)
                 .blendMode(.hardLight)
-                // A modifier that adds a spring animation that contains momentum. The lower the response value, the quicker the animation. dampingFraction regards the amount of bounce.
                 .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0))
                 .onTapGesture {
                     self.showCard.toggle()
                 }
                 .gesture(
-                    // onChanged in one event in the DragGesture
-                    // onChanged returns the DragGesture value.
                     DragGesture().onChanged { value in
-                        // Store x and y positions
-                        // translation is of type CGSize
                         self.viewState = value.translation
                         self.show = true
                     }
@@ -106,6 +98,7 @@ struct ContentView: View {
                         if self.showFull {
                             self.bottomState.height += -300
                         }
+                        // Prevent dragging bottom card too far up
                         if self.bottomState.height < -300 {
                             self.bottomState.height = -300
                         }
