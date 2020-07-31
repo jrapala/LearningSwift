@@ -22,7 +22,7 @@
 		BC787FF024C91AB50093EE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB7136624C7AA8300CBCB91 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		BCBD149624CB4E850022C10D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		BCC158C124C0826A00DF945C /* LearningSwiift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC158C124C0826A00DF945C /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC158C424C0826A00DF945C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCC158C624C0826A00DF945C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BCC158C824C0826A00DF945C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		BCC158C224C0826A00DF945C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCC158C124C0826A00DF945C /* LearningSwiift.app */,
+				BCC158C124C0826A00DF945C /* LearningSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCC158C024C0826A00DF945C /* LearningSwiift */ = {
+		BCC158C024C0826A00DF945C /* LearningSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCC158D524C0826D00DF945C /* Build configuration list for PBXNativeTarget "LearningSwiift" */;
+			buildConfigurationList = BCC158D524C0826D00DF945C /* Build configuration list for PBXNativeTarget "LearningSwift" */;
 			buildPhases = (
 				BCC158BD24C0826A00DF945C /* Sources */,
 				BCC158BE24C0826A00DF945C /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = LearningSwiift;
+			name = LearningSwift;
 			productName = LearningSwift;
-			productReference = BCC158C124C0826A00DF945C /* LearningSwiift.app */;
+			productReference = BCC158C124C0826A00DF945C /* LearningSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BCC158BC24C0826A00DF945C /* Build configuration list for PBXProject "LearningSwiift" */;
+			buildConfigurationList = BCC158BC24C0826A00DF945C /* Build configuration list for PBXProject "LearningSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCC158C024C0826A00DF945C /* LearningSwiift */,
+				BCC158C024C0826A00DF945C /* LearningSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCC158BC24C0826A00DF945C /* Build configuration list for PBXProject "LearningSwiift" */ = {
+		BCC158BC24C0826A00DF945C /* Build configuration list for PBXProject "LearningSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCC158D324C0826D00DF945C /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCC158D524C0826D00DF945C /* Build configuration list for PBXNativeTarget "LearningSwiift" */ = {
+		BCC158D524C0826D00DF945C /* Build configuration list for PBXNativeTarget "LearningSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCC158D624C0826D00DF945C /* Debug */,

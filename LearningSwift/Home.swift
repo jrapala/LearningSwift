@@ -1,6 +1,6 @@
 //
 //  Home.swift
-//  LearningSwiift
+//  LearningSwift
 //
 //  Created by Juliette Rapala on 7/24/20.
 //  Copyright © 2020 Juliette Rapala. All rights reserved.
