@@ -16,6 +16,7 @@
 		BCC158CE24C0826D00DF945C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC158CD24C0826D00DF945C /* Preview Assets.xcassets */; };
 		BCC158D124C0826D00DF945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC158CF24C0826D00DF945C /* LaunchScreen.storyboard */; };
 		BCCD415624CE199200D826DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD415524CE199200D826DF /* HomeView.swift */; };
+		BCF8278B24D4C6B900629414 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8278A24D4C6B900629414 /* UpdateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BCC158D024C0826D00DF945C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCC158D224C0826D00DF945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCD415524CE199200D826DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BCF8278A24D4C6B900629414 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				BCCD415524CE199200D826DF /* HomeView.swift */,
 				BCC158C824C0826A00DF945C /* ContentView.swift */,
 				BCB7136624C7AA8300CBCB91 /* MenuView.swift */,
+				BCF8278A24D4C6B900629414 /* UpdateList.swift */,
 				BC787FF024C91AB50093EE1B /* Assets.xcassets */,
 				BCC158CF24C0826D00DF945C /* LaunchScreen.storyboard */,
 				BCC158D224C0826D00DF945C /* Info.plist */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC158C524C0826A00DF945C /* AppDelegate.swift in Sources */,
+				BCF8278B24D4C6B900629414 /* UpdateList.swift in Sources */,
 				BCB7136724C7AA8300CBCB91 /* MenuView.swift in Sources */,
 				BCBD149724CB4E850022C10D /* Home.swift in Sources */,
 				BCCD415624CE199200D826DF /* HomeView.swift in Sources */,
