@@ -17,6 +17,7 @@
 		BCC158D124C0826D00DF945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC158CF24C0826D00DF945C /* LaunchScreen.storyboard */; };
 		BCCD415624CE199200D826DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD415524CE199200D826DF /* HomeView.swift */; };
 		BCDC398824D5EED2007E37FE /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC398724D5EED2007E37FE /* UpdateDetail.swift */; };
+		BCDC398A24D5F996007E37FE /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC398924D5F996007E37FE /* UpdateStore.swift */; };
 		BCF8278B24D4C6B900629414 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8278A24D4C6B900629414 /* UpdateList.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		BCC158D224C0826D00DF945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCD415524CE199200D826DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BCDC398724D5EED2007E37FE /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		BCDC398924D5F996007E37FE /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		BCF8278A24D4C6B900629414 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				BCB7136624C7AA8300CBCB91 /* MenuView.swift */,
 				BCF8278A24D4C6B900629414 /* UpdateList.swift */,
 				BCDC398724D5EED2007E37FE /* UpdateDetail.swift */,
+				BCDC398924D5F996007E37FE /* UpdateStore.swift */,
 				BC787FF024C91AB50093EE1B /* Assets.xcassets */,
 				BCC158CF24C0826D00DF945C /* LaunchScreen.storyboard */,
 				BCC158D224C0826D00DF945C /* Info.plist */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCC158C524C0826A00DF945C /* AppDelegate.swift in Sources */,
+				BCDC398A24D5F996007E37FE /* UpdateStore.swift in Sources */,
 				BCF8278B24D4C6B900629414 /* UpdateList.swift in Sources */,
 				BCB7136724C7AA8300CBCB91 /* MenuView.swift in Sources */,
 				BCDC398824D5EED2007E37FE /* UpdateDetail.swift in Sources */,
