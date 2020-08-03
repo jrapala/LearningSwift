@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC00134B24D7748800222C57 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134A24D7748800222C57 /* TabBar.swift */; };
+		BC00134D24D8A48400222C57 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134C24D8A48400222C57 /* RingView.swift */; };
 		BC787FF124C91AB50093EE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC787FF024C91AB50093EE1B /* Assets.xcassets */; };
 		BCB7136724C7AA8300CBCB91 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB7136624C7AA8300CBCB91 /* MenuView.swift */; };
 		BCBD149724CB4E850022C10D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD149624CB4E850022C10D /* Home.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		BC00134A24D7748800222C57 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		BC00134C24D8A48400222C57 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		BC787FF024C91AB50093EE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB7136624C7AA8300CBCB91 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		BCBD149624CB4E850022C10D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				BCBD149624CB4E850022C10D /* Home.swift */,
 				BCCD415524CE199200D826DF /* HomeView.swift */,
 				BCC158C824C0826A00DF945C /* ContentView.swift */,
+				BC00134C24D8A48400222C57 /* RingView.swift */,
 				BCB7136624C7AA8300CBCB91 /* MenuView.swift */,
 				BCF8278A24D4C6B900629414 /* UpdateList.swift */,
 				BCDC398724D5EED2007E37FE /* UpdateDetail.swift */,
@@ -172,6 +175,7 @@
 				BCF8278B24D4C6B900629414 /* UpdateList.swift in Sources */,
 				BCB7136724C7AA8300CBCB91 /* MenuView.swift in Sources */,
 				BCDC398824D5EED2007E37FE /* UpdateDetail.swift in Sources */,
+				BC00134D24D8A48400222C57 /* RingView.swift in Sources */,
 				BCBD149724CB4E850022C10D /* Home.swift in Sources */,
 				BCCD415624CE199200D826DF /* HomeView.swift in Sources */,
 				BCC158C724C0826A00DF945C /* SceneDelegate.swift in Sources */,
