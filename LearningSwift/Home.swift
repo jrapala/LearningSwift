@@ -11,6 +11,7 @@ import SwiftUI
 struct Home: View {
     @State var showProfile = false
     @State var viewState = CGSize.zero
+    @State var showContent = false
 
     var body: some View {
         ZStack {
@@ -18,7 +19,7 @@ struct Home: View {
                 // Don't add this to a parent. Add this on a per view basis. Not every view can ignore the safe area.
                 .edgesIgnoringSafeArea(.all)
 
-             HomeView(showProfile: $showProfile)
+            HomeView(showProfile: $showProfile, showContent: $showContent)
                 // 44 is the size of the top status bar. This will need to be adjusted for non-notched screens.
                 .padding(.top, 44)
                 .background(Color.white)
@@ -50,6 +51,32 @@ struct Home: View {
                         self.viewState = .zero
                     }
                 )
+            
+            if showContent {
+                Color.white.edgesIgnoringSafeArea(.all)
+
+                ContentView()
+                
+                VStack {
+                    HStack {
+                        Spacer()
+                        Image(systemName: "xmark")
+                            .frame(width: 36, height: 36)
+                            .foregroundColor(.white)
+                            .background(Color.black)
+                            .clipShape(Circle())
+                    }
+                    
+                    Spacer()
+                }
+                .offset(x: -16, y: 16)
+                .transition(.move(edge: .top))
+                .animation(.spring(response: 0.6, dampingFraction: 0.8, blendDuration: 0))
+                .onTapGesture {
+                    self.showContent = false
+                }
+                
+            }
         }
     }
 }
