@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		BC00134B24D7748800222C57 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134A24D7748800222C57 /* TabBar.swift */; };
 		BC00134D24D8A48400222C57 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134C24D8A48400222C57 /* RingView.swift */; };
+		BC00134F24DA09BD00222C57 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134E24DA09BD00222C57 /* Modifiers.swift */; };
+		BC73093724DA0FBD0025B67E /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73092D24DA0FBD0025B67E /* WorkSans-Regular.ttf */; };
+		BC73093824DA0FBD0025B67E /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73092E24DA0FBD0025B67E /* WorkSans-Light.ttf */; };
+		BC73093924DA0FBD0025B67E /* WorkSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73092F24DA0FBD0025B67E /* WorkSans-ExtraBold.ttf */; };
+		BC73093A24DA0FBD0025B67E /* WorkSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73093024DA0FBD0025B67E /* WorkSans-ExtraLight.ttf */; };
+		BC73093B24DA0FBD0025B67E /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73093124DA0FBD0025B67E /* WorkSans-Medium.ttf */; };
+		BC73093C24DA0FBD0025B67E /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73093224DA0FBD0025B67E /* WorkSans-SemiBold.ttf */; };
+		BC73093D24DA0FBD0025B67E /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC73093324DA0FBD0025B67E /* OFL.txt */; };
+		BC73093E24DA0FBD0025B67E /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73093424DA0FBD0025B67E /* WorkSans-Thin.ttf */; };
+		BC73093F24DA0FBD0025B67E /* WorkSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73093524DA0FBD0025B67E /* WorkSans-Black.ttf */; };
+		BC73094024DA0FBD0025B67E /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73093624DA0FBD0025B67E /* WorkSans-Bold.ttf */; };
 		BC787FF124C91AB50093EE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC787FF024C91AB50093EE1B /* Assets.xcassets */; };
 		BCB7136724C7AA8300CBCB91 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB7136624C7AA8300CBCB91 /* MenuView.swift */; };
 		BCBD149724CB4E850022C10D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD149624CB4E850022C10D /* Home.swift */; };
@@ -26,6 +37,17 @@
 /* Begin PBXFileReference section */
 		BC00134A24D7748800222C57 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		BC00134C24D8A48400222C57 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		BC00134E24DA09BD00222C57 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		BC73092D24DA0FBD0025B67E /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		BC73092E24DA0FBD0025B67E /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.ttf"; sourceTree = "<group>"; };
+		BC73092F24DA0FBD0025B67E /* WorkSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BC73093024DA0FBD0025B67E /* WorkSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BC73093124DA0FBD0025B67E /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		BC73093224DA0FBD0025B67E /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		BC73093324DA0FBD0025B67E /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		BC73093424DA0FBD0025B67E /* WorkSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Thin.ttf"; sourceTree = "<group>"; };
+		BC73093524DA0FBD0025B67E /* WorkSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.ttf"; sourceTree = "<group>"; };
+		BC73093624DA0FBD0025B67E /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
 		BC787FF024C91AB50093EE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB7136624C7AA8300CBCB91 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		BCBD149624CB4E850022C10D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -53,6 +75,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC73092C24DA0FBD0025B67E /* Work_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				BC73092D24DA0FBD0025B67E /* WorkSans-Regular.ttf */,
+				BC73092E24DA0FBD0025B67E /* WorkSans-Light.ttf */,
+				BC73092F24DA0FBD0025B67E /* WorkSans-ExtraBold.ttf */,
+				BC73093024DA0FBD0025B67E /* WorkSans-ExtraLight.ttf */,
+				BC73093124DA0FBD0025B67E /* WorkSans-Medium.ttf */,
+				BC73093224DA0FBD0025B67E /* WorkSans-SemiBold.ttf */,
+				BC73093324DA0FBD0025B67E /* OFL.txt */,
+				BC73093424DA0FBD0025B67E /* WorkSans-Thin.ttf */,
+				BC73093524DA0FBD0025B67E /* WorkSans-Black.ttf */,
+				BC73093624DA0FBD0025B67E /* WorkSans-Bold.ttf */,
+			);
+			name = Work_Sans;
+			path = ../../../../../Downloads/Work_Sans;
+			sourceTree = "<group>";
+		};
 		BCC158B824C0826A00DF945C = {
 			isa = PBXGroup;
 			children = (
@@ -78,12 +118,14 @@
 				BCCD415524CE199200D826DF /* HomeView.swift */,
 				BCC158C824C0826A00DF945C /* ContentView.swift */,
 				BC00134C24D8A48400222C57 /* RingView.swift */,
+				BC00134E24DA09BD00222C57 /* Modifiers.swift */,
 				BCB7136624C7AA8300CBCB91 /* MenuView.swift */,
 				BCF8278A24D4C6B900629414 /* UpdateList.swift */,
 				BCDC398724D5EED2007E37FE /* UpdateDetail.swift */,
 				BCDC398924D5F996007E37FE /* UpdateStore.swift */,
 				BC00134A24D7748800222C57 /* TabBar.swift */,
 				BC787FF024C91AB50093EE1B /* Assets.xcassets */,
+				BC73092C24DA0FBD0025B67E /* Work_Sans */,
 				BCC158CF24C0826D00DF945C /* LaunchScreen.storyboard */,
 				BCC158D224C0826D00DF945C /* Info.plist */,
 				BCC158CC24C0826D00DF945C /* Preview Content */,
@@ -157,9 +199,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC73093F24DA0FBD0025B67E /* WorkSans-Black.ttf in Resources */,
+				BC73093D24DA0FBD0025B67E /* OFL.txt in Resources */,
+				BC73093A24DA0FBD0025B67E /* WorkSans-ExtraLight.ttf in Resources */,
 				BCC158D124C0826D00DF945C /* LaunchScreen.storyboard in Resources */,
 				BC787FF124C91AB50093EE1B /* Assets.xcassets in Resources */,
 				BCC158CE24C0826D00DF945C /* Preview Assets.xcassets in Resources */,
+				BC73093E24DA0FBD0025B67E /* WorkSans-Thin.ttf in Resources */,
+				BC73093724DA0FBD0025B67E /* WorkSans-Regular.ttf in Resources */,
+				BC73093B24DA0FBD0025B67E /* WorkSans-Medium.ttf in Resources */,
+				BC73093C24DA0FBD0025B67E /* WorkSans-SemiBold.ttf in Resources */,
+				BC73094024DA0FBD0025B67E /* WorkSans-Bold.ttf in Resources */,
+				BC73093924DA0FBD0025B67E /* WorkSans-ExtraBold.ttf in Resources */,
+				BC73093824DA0FBD0025B67E /* WorkSans-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +226,7 @@
 				BCDC398A24D5F996007E37FE /* UpdateStore.swift in Sources */,
 				BCF8278B24D4C6B900629414 /* UpdateList.swift in Sources */,
 				BCB7136724C7AA8300CBCB91 /* MenuView.swift in Sources */,
+				BC00134F24DA09BD00222C57 /* Modifiers.swift in Sources */,
 				BCDC398824D5EED2007E37FE /* UpdateDetail.swift in Sources */,
 				BC00134D24D8A48400222C57 /* RingView.swift in Sources */,
 				BCBD149724CB4E850022C10D /* Home.swift in Sources */,
