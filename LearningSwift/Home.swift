@@ -22,7 +22,15 @@ struct Home: View {
             HomeView(showProfile: $showProfile, showContent: $showContent)
                 // 44 is the size of the top status bar. This will need to be adjusted for non-notched screens.
                 .padding(.top, 44)
-                .background(Color.white)
+                .background(
+                    VStack {
+                        LinearGradient(gradient: Gradient(colors: [Color("background2"), Color.white]), startPoint: .top, endPoint: .bottom)
+                            .frame(height: 200)
+
+                            Spacer()
+                        }
+                    .background(Color.white)
+                )
                 .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
                 .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
                 .offset(y: showProfile ? -450 : 0)
