@@ -10,6 +10,7 @@
 		BC00134B24D7748800222C57 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134A24D7748800222C57 /* TabBar.swift */; };
 		BC00134D24D8A48400222C57 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134C24D8A48400222C57 /* RingView.swift */; };
 		BC00134F24DA09BD00222C57 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00134E24DA09BD00222C57 /* Modifiers.swift */; };
+		BC2A1DD024E0A5CC00C69539 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2A1DCF24E0A5CC00C69539 /* CourseList.swift */; };
 		BC73093724DA0FBD0025B67E /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73092D24DA0FBD0025B67E /* WorkSans-Regular.ttf */; };
 		BC73093824DA0FBD0025B67E /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73092E24DA0FBD0025B67E /* WorkSans-Light.ttf */; };
 		BC73093924DA0FBD0025B67E /* WorkSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC73092F24DA0FBD0025B67E /* WorkSans-ExtraBold.ttf */; };
@@ -38,6 +39,7 @@
 		BC00134A24D7748800222C57 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		BC00134C24D8A48400222C57 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		BC00134E24DA09BD00222C57 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		BC2A1DCF24E0A5CC00C69539 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		BC73092D24DA0FBD0025B67E /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
 		BC73092E24DA0FBD0025B67E /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.ttf"; sourceTree = "<group>"; };
 		BC73092F24DA0FBD0025B67E /* WorkSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				BCC158C624C0826A00DF945C /* SceneDelegate.swift */,
 				BCBD149624CB4E850022C10D /* Home.swift */,
 				BCCD415524CE199200D826DF /* HomeView.swift */,
+				BC2A1DCF24E0A5CC00C69539 /* CourseList.swift */,
 				BCC158C824C0826A00DF945C /* ContentView.swift */,
 				BC00134C24D8A48400222C57 /* RingView.swift */,
 				BC00134E24DA09BD00222C57 /* Modifiers.swift */,
@@ -234,6 +237,7 @@
 				BCC158C724C0826A00DF945C /* SceneDelegate.swift in Sources */,
 				BCC158C924C0826A00DF945C /* ContentView.swift in Sources */,
 				BC00134B24D7748800222C57 /* TabBar.swift in Sources */,
+				BC2A1DD024E0A5CC00C69539 /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
